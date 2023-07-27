@@ -12,26 +12,37 @@ body {
 }
 
 button {
-  width: 100px;
-  height: 140px;
+  width: 12%;
+  height: 80%;
 }
 
 img {
-  width: 100px;
-  height: 140px;
+  width: 100%;
+  height: 100%;
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
-  margin: 20px 400px 20px 400px;
+  width: 50%;
+  height: 24vh;
+  margin: auto;
+}
+
+.flex-container button {
+  margin: auto;
 }
 
 .middle {
+  display: flex;
   margin: auto;
-  width: 50%;
+  width: 90%;
+  height: 4vh;
 }
 
 .middle input {
-  width: 100%;
+  margin: auto;
+  width: 16%;
+  height: 100%;
+  font-size: 28px;
 }
