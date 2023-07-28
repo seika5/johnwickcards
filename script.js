@@ -19,10 +19,6 @@ function shuffle(array) {
   return array;
 }
 
-function flip() {
-  console.log(cards);
-}
-
 function docWrite(id, variable) {
   document.getElementById(id).innerHTML=variable;
 }
